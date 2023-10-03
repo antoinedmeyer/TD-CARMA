@@ -26,7 +26,7 @@ from eztao.carma import CARMA_term
 from eztao.ts import neg_fcoeff_ll
 
 #%% Choose and import data
-data_dir = './td_carma/data/'
+data_dir = './data/'
 data_file = '2M1134_WFI.csv'
 data = pd.read_csv(data_dir+data_file)
 
