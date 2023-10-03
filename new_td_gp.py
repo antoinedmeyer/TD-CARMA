@@ -28,7 +28,7 @@ def fcoeff_ll(log_coeffs, y, gp):
 
 #%% Choose and import data
 data_file = '2M1134_WFI.csv'
-data = pd.read_csv('./td_carma/data/2M1134_WFI.csv')
+data = pd.read_csv('./data/2M1134_WFI.csv')
 
 #%% Extract data
 t = data.iloc[:,0] - min(data.iloc[:,0])
